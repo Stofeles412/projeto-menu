@@ -34,6 +34,13 @@ header{
     list-style-type: none;
     
 }
+.mobile-menu{
+   display: none;
+}
+
+#menu-icon{
+   display: none;
+}
 .div-item{
     margin: 10px;
 }
@@ -58,9 +65,32 @@ a:hover{
 }
 
 @media screen and (max-width: 730px){
+    .div-bar{
+       padding: 20px;
+    }
+
+
     .div-item{
-        
-     display: none;  }
+        display: none;
+       }
+       .login-botao{
+        display: none;
+       }
+     .mobile-menu{
+        display: none;
+        color: aliceblue;}
+    #menu-icon{
+      
+        display: block;
+    width: 20px;
+background-color: rgb(94, 92, 92);
+color: rgba(35, 89, 137, 0);
+padding: 0;
+
+}
+       
+
+    
 }
 
 
