@@ -72,24 +72,34 @@ a:hover{
 
     .div-item{
         display: none;
+        
+       
        }
        .login-botao{
         display: none;
        }
      .mobile-menu{
-        display: none;
+        display: block;
         color: aliceblue;}
     #menu-icon{
       
         display: block;
     width: 20px;
-background-color: rgb(94, 92, 92);
+background-color: rgba(253, 253, 253, 0);
 color: rgba(35, 89, 137, 0);
-padding: 0;
+border: none;
+cursor: pointer;
 
 }
-       
+.mobile-menu ul{
 
+    display: flex;
+    flex-direction: column;
+    text-align: center;}
+       
+.open{
+    display: block;
+}
     
 }
 
