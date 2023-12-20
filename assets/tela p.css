@@ -79,8 +79,10 @@ a:hover{
        .login-botao{
         display: none;
        }
-     .mobile-menu{
-        display: block;
+     .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
         color: aliceblue;}
     #menu-icon{
       
@@ -105,7 +107,7 @@ cursor: pointer;
     background-color: transparent;
     border: none;
 }
-.div-mobile menu{
+.div-mobile menu .div-item{
     display: block;
     padding: 10px;
 
@@ -114,6 +116,9 @@ cursor: pointer;
     display: block;
     padding: 10px;
 }
+
+ 
+
 }
 
 
