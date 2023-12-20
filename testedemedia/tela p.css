@@ -1,0 +1,26 @@
+h1{
+    color: blue;
+}
+body{
+    background-color: chartreuse;
+}
+@media screen and (max-width: 700px){
+    h1{
+        color: brown;
+    }
+    body{
+        background-color: aqua;
+    }
+    .mul{
+        display: none;
+    }
+}
+@media screen and (min-width: 900px){
+    h1{
+        background-color: chocolate;    
+      
+    }
+    body{
+        background-color: burlywood;
+    }
+}

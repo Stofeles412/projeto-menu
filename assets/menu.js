@@ -1,8 +1,10 @@
-function menushow(){
-    var menuMobile = document.querySelector('.mobile-menu');
-    if (menuMobile.classList.contains('open')){
-        menuMobile.classList.remove('open')
-    }else{
-        menuMobile.classList.add('open')
+function menuShow() {
+    var menuMobile = document.getElementsByClassName ('.mobile-menu');
+    if(menuMobile.classlist.contains ('open')) { 
+        menuMobile.classlist.remove ('open')
+    } else {
+        menuMobile.classlist.add ('open')
+
     }
+    
 }
