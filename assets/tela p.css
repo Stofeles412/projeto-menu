@@ -64,6 +64,9 @@ a:hover{
 .login-botao a:hover{
     color: rgb(0, 0, 0);
 }
+#openmenu{
+    display: none;
+}
 
 @media screen and (max-width: 730px){
     .div-bar{
@@ -80,7 +83,7 @@ a:hover{
         display: none;
        }
      .mobile-menu ul{
-        display: flex;
+        display: none;
         flex-direction: column;
         text-align: center;
         color: aliceblue;}

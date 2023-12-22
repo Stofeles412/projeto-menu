@@ -2,7 +2,6 @@
 <html lang="pt-br">
 <head>
     <link rel="stylesheet" href="tela p.css" @media scren and (max-width:728px)>
-    <link rel="stylesheet" href="tela m.css" @media screen and (max-width: 900px)>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>medias qurys</title>
@@ -10,7 +9,7 @@
 <body>
     <h1>menu</h1>
     <input type="button" value="enviar" class="botao" onclick="mandar()">
-    <ul>
+    <ul id="menu-ul">
         <li><a href="#">nome</a></li>
         <li><a href="#">contato</a></li>
         <li><a href="#">inicio</a></li>
@@ -20,11 +19,19 @@
 <script>
     function mandar(){
         var env = window.document.getElementsByClassName('botao')
+
         var ul = window.document.getElementsByClassName('.mul')
-        window.alert ('seus dados foram enviados !')
+       
+        var click = window.document.getElementsByClassName('botao')
+
+        var open = window.document.getElementById('menu-ul')
+
+ 
+    open.style.display = 'block'
+  
        
 
-       
+
     }
 </script>
 </html>

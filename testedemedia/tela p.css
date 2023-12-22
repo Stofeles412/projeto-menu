@@ -14,13 +14,22 @@ body{
     .mul{
         display: none;
     }
+    #menu-ul{
+        display: none;
+    }
 }
 @media screen and (min-width: 900px){
     h1{
-        background-color: chocolate;    
+        background-color: rgb(10, 16, 78);  
+        color: rgb(255, 234, 1); 
+        border-radius: 100px;
+        padding: 5px;
       
     }
     body{
-        background-color: burlywood;
+        background-color: rgb(232, 232, 232);
+    }
+    #open{
+        display: none;
     }
 }
