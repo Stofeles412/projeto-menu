@@ -90,10 +90,9 @@ a:hover{
     #menu-icon{
       
         display: block;
-    width: 20px;
-background-color: rgba(253, 253, 253, 0);
-color: rgba(35, 89, 137, 0);
-border: none;
+    width: 25px;
+background-color: transparent;
+color: rgba(21, 32, 191, 0.936);
 cursor: pointer;
 
 }
@@ -118,6 +117,9 @@ cursor: pointer;
 .mobile-menu .login-botao{
     display: block;
     padding: 10px;
+}
+#open{
+    display: block;
 }
 
  

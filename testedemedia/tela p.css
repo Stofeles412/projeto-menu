@@ -30,6 +30,6 @@ body{
         background-color: rgb(232, 232, 232);
     }
     #open{
-        display: none;
+        display: block;
     }
 }
