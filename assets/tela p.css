@@ -102,7 +102,7 @@ cursor: pointer;
     flex-direction: column;
     text-align: center;}
        
-.open{
+#open{
     display: block;
 }
 .mobile-menu-icon{
