@@ -135,8 +135,11 @@ cursor: pointer;
     padding: 10px;
 }
 #open{
-    display: block;
+    display: none;
 }
+
+
+
 
  
 
