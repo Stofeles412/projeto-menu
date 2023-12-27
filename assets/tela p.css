@@ -30,6 +30,22 @@ header{
     font-size: 1.2em;
     font-weight: bold;
 }
+nav{
+    background-color: #444547;
+    color: white;
+    height: 100px;
+    padding: 10px;
+}
+main{
+    border: solid 2px rgba(0, 0, 0, 0.517);
+    padding: 20px;
+    text-indent: 3px;
+    text-align: justify;
+}
+
+
+
+
 .div-lista ul{
     display: flex;
     list-style-type: none;
