@@ -22,9 +22,13 @@ header li {
     text-align: center;
     background-color: transparent;
     cursor: pointer;
+    background-color:  rgb(9, 128, 193);;
    
-  
-   
+    
+}
+
+button{
+    background-color:  rgb(9, 128, 193);
    
 }
 header a  {
@@ -33,6 +37,8 @@ header a  {
     font-weight: bold;
     text-decoration: none;
     font-size: 1.3em;
+  
+    
 }
 a:hover{
     background-color: rgb(6, 31, 49);
@@ -44,6 +50,7 @@ a:hover{
 
 header ul{ list-style-type: none;
     padding: 20px;
+   
     
    
 }
@@ -55,6 +62,7 @@ header h1{
 }
 #itens{
     display: none;
+   
 }
 main{
     padding: 10px;
@@ -83,6 +91,7 @@ main p{
 @media screen and (min-width: 730px){
     #botao-menu{
         display: none;
+      
     }
     #itens{
         display: block;
