@@ -5,29 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>medias qurys</title>
-</head>
-<body>
-    <h1>menu</h1>
-    <input type="button" value="enviar" class="botao" onclick="mandar()">
-    <ul id="menu-ul">
-        <li><a href="#">nome</a></li>
-        <li><a href="#">contato</a></li>
-        <li><a href="#">inicio</a></li>
-    </ul>
+</head><header>
     
+    <body>
+        <h1>menu</h1>
+        <input type="button" value="ABRIR" class="botao" onclick="mandar()">
+        <ul id="menu-ul">
+            <li class="li-margin"><a href="#">Home</a></li>
+            <li class="li-margin"><a href="#">contato</a></li>
+            <li class="li-margin"><a href="#">inicio</a></li>
+        </ul>
+    
+</header>
 </body>
 <script>
     function mandar(){
-        var env = window.document.getElementsByClassName('botao')
-
-        var ul = window.document.getElementsByClassName('.mul')
        
-        var click = window.document.getElementsByClassName('botao')
-
         var open = window.document.getElementById('menu-ul')
 
  
-     open.style.display = 'block'
+     if( open.style.display == 'block'){
+        open.style.display = 'none'
+     }else{
+        open.style.display = 'block'
+       
+     }
    
    
   

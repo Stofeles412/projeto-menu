@@ -1,18 +1,56 @@
-h1{
-    color: blue;
+header{
+    background-color: rgb(16, 30, 30);
+    border-radius: 10px;
 }
-body{
-    background-color: chartreuse;
+body{ color: rgb(32, 118, 193);
+ 
+  
 }
+#menu-ul a{
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.5em;
+    
+}
+
+
+#menu-ul{ text-align: center;
+    list-style-type: none;
+    font-weight: bold;
+   
+   
+
+}
+#menu-ul li{
+    display: inline-block;
+}
+.li-margin{
+    margin: 20px;
+  
+}
+
+
+.botao{
+    margin: auto;
+}
+ a:hover{
+    background-color: rgb(47, 59, 59);
+}
+input{
+    background-color: rgb(127, 225, 255);
+   font-weight: bold;
+}
+
 @media screen and (max-width: 700px){
     h1{
-        color: rgb(241, 234, 234);
-        background-color: black;
-        border-radius: 20px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(34, 130, 198);
+        border-radius: 10px;
         padding: 3px;
     }
     body{
-        background-color: rgb(57, 63, 63);
+        background-color: rgb(218, 226, 226);
     }
     .mul{
         display: none;
@@ -26,7 +64,7 @@ body{
 }
 @media screen and (min-width: 900px){
     h1{
-        background-color: rgb(10, 16, 78);  
+       
         color: rgb(255, 234, 1); 
         border-radius: 100px;
         padding: 5px;
@@ -37,5 +75,6 @@ body{
     }
     #open{
         display: block;
+        text-align: center;
     }
 }
