@@ -7,12 +7,16 @@
     <title>menu</title>
 </head>
 <body>
+  
     <header>
+        
         <h1>menu</h1>
         <button>
-            <img src="imagens/menu-aberto.png" alt="menu" onclick="openMenu()" id="botao-menu">
+            <img src="menu.png" alt="menu" onclick="openMenu()" id="botao-menu">
         </button>
+     
         <menu>
+         <h1>Menu</h1>
          
             <ul id="itens">
                 <li><a href="#"> inicio</a></li>
@@ -49,8 +53,10 @@ var abrir = window.document.getElementById ('itens')
 var botao = window.document.getElementById ('botao-menu')
 if( abrir.style.display == 'block'){
     abrir.style.display = 'none'
+    botao.src = 'menu.png'
 }else{
     abrir.style.display = 'block'
+    botao.src = 'menu-fechado.png.png'
 }
 }
     </script>
