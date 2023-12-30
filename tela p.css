@@ -89,9 +89,9 @@ main p{
    
 }
 .imagens{
-    width: 500px;
+   
     border: solid 2px black;
-    width: 100%;
+    width: 100vh;
     margin-top: 50px;
    
 }
@@ -119,6 +119,9 @@ main p{
     main{
         padding: 10px;
         text-indent: 5px;
+    }
+    .imagens{ 
+       
     }
 }
 
