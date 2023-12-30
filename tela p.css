@@ -91,7 +91,7 @@ main p{
 .imagens{
    
     border: solid 2px black;
-    width: 400px;
+    width: 100%;
     margin-top: 50px;
    
 }
@@ -103,6 +103,18 @@ main p{
     background-color: rgb(9, 59, 59);
     color: rgb(8, 110, 161);
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.391);
+    text-transform: capitalize;
+}
+footer{
+    background-color: rgb(143, 234, 234);
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
     text-transform: capitalize;
 }
 
