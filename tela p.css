@@ -18,7 +18,7 @@ header li {
 
 
  #botao-menu{
-    width: 25px;
+    width: 30px;
     display: inline-block;
     text-align: center;
     background-color: transparent;
@@ -34,7 +34,7 @@ button{
 }
 header a  {
     text-align: center;
-    color: rgb(9, 128, 193);
+    color: rgb(3, 40, 61);
     font-weight: bold;
     text-decoration: none;
     font-size: 1.3em;
@@ -42,7 +42,7 @@ header a  {
     
 }
 a:hover{
-    background-color: rgb(6, 31, 49);
+    background-color: rgba(6, 31, 49, 0.312);
     text-decoration: underline;
     cursor: pointer;
 }
@@ -77,16 +77,33 @@ main{
 
 main h1{
    margin-bottom: 30px;
-    color: rgb(9, 128, 193);
-    color: rgb(97, 132, 208);
     border-radius: 100px;
-    font-size: 2.5em;
+    font-size: 2em;
+    color: rgb(13, 69, 104);
 }
 
 main p{
     padding: 20px;
+    margin-top: 50px;
    
    
+}
+.imagens{
+    width: 500px;
+    border: solid 2px black;
+    width: 100%;
+    margin-top: 50px;
+   
+}
+#titulo-principal{
+    font-size: 1.5em;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgb(9, 59, 59);
+    color: rgb(8, 110, 161);
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.391);
+    text-transform: capitalize;
 }
 
 
