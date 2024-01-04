@@ -71,7 +71,9 @@ main{
     padding: 10px;
     text-indent: 5px;
     margin-top: 50px;
-    border: solid 1px rgba(0, 0, 0, 0.445);
+   width: 95%;
+    border: solid 1px rgba(0, 0, 0, 0.294);
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.37);
   
 }
 
