@@ -66,6 +66,8 @@ header h1{
 #itens{
     display: none;
    
+   
+   
 }
 main{
     padding: 10px;
@@ -129,6 +131,7 @@ footer a{
     }
     #itens{
         display: block;
+        
     }
     main{
         padding: 10px;
