@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #cabeça-do-site{
+            background-color: rgb(5, 74, 116);
+            color: white;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.32);
+            text-transform: uppercase;
+            padding: 7px;
+        }
+        
+            
+        
+        nav{
+            background-color: rgb(51, 158, 191);
+            position: absolute;
+            height: 500px;
+            width: 200px;
+            line-height: 100px;
+            display: none;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.441);
+          
+        }
+        #menu-icon{
+            width: 20px;
+            padding: 10px;
+            cursor: pointer;
+           background-color: transparent;
+
+          
+            
+        }
+        ul, li{
+            list-style-type: none;
+            padding: 3px;
+        }
+        a{
+            text-transform: uppercase;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover{
+            color: rgb(4, 0, 123);
+            transition: .1s;
+            text-decoration: underline;
+        }
+        main{ padding: 20px;
+            line-height: 30px;
+           
+        }
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu lateral</title>
+</head>
+<body>
+    <header id="cabeça-do-site">
+        <h1>menu</h1>
+    </header>
+    <img src="menu.png" alt="menu-icon" id="menu-icon" onclick="openMenu()">
+    <nav id="nav-menu">
+      
+        <ul id="itens-menu">
+            <li><a href="#">sobre</a></li>
+            <li><a href="#">contato</a></li> 
+            <li><a href="#">quem somos</a></li>
+            <li><a href="#">faq</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>ola</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nihil, maiores dignissimos aperiam sint ea placeat totam provident fugiat libero veniam excepturi nesciunt. Illo maiores officiis placeat reiciendis eaque animi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam qui eius aliquam totam voluptatum, dolorem modi accusamus labore corrupti libero, dolorum illo quaerat? Dolorem ut enim animi tempore vel repudiandae./p>
+    </main>
+    
+</body>
+<script>
+    function openMenu(){
+        var abrir = window.document.getElementById('nav-menu')
+        var icone = window.document.getElementById('menu-icon')
+        if(abrir.style.display == 'block'){
+            abrir.style.display = 'none'
+            icone.src ='menu.png'
+        }else{
+            abrir.style.display = 'block'
+            icone.src ='menu-fechado.png.png'
+        }
+        
+    }
+</script>
+</html>
