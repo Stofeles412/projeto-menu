@@ -4,16 +4,18 @@
     padding: 0;
 }
 header{
-    background-color: rgb(129, 132, 135);
+    background-color: rgb(37, 37, 38);
     border: solid 2px rgba(0, 0, 0, 0.327);
     box-shadow: 2px 5px 5px rgba(82, 79, 79, 0.476);
     text-transform: uppercase;
     margin-top: -40px;
+    
+   
 }
 header li {
    
     display: inline-block;
-    color: rgb(34, 122, 177);
+    color: rgb(3, 159, 255);
 }
 
 
@@ -23,27 +25,34 @@ header li {
     text-align: center;
     background-color: transparent;
     cursor: pointer;
-    background-color:  rgb(9, 128, 193);;
+   background-color: transparent;
+  
    
     
 }
 
 button{
-    background-color:  rgb(9, 128, 193);
+  background-color: transparent;
+  border:  none;
+  
+   
    
 }
 header a  {
     text-align: center;
-    color: rgb(3, 40, 61);
+    color: rgb(2, 161, 252);
     font-weight: bold;
     text-decoration: none;
     font-size: 1.3em;
+   
+   
   
     
 }
 a:hover{
-    background-color: rgba(6, 31, 49, 0.312);
+    background-color: rgba(32, 125, 191, 0.312);
     text-decoration: underline;
+    color: white;
     cursor: pointer;
 }
 
@@ -51,6 +60,7 @@ a:hover{
 
 header ul{ list-style-type: none;
     padding: 20px;
+  
    
     
    
@@ -58,13 +68,14 @@ header ul{ list-style-type: none;
 header h1{
     text-align: center ;
     text-shadow: 2px rgba(0, 0, 0, 0.437);
-    color: rgb(26, 51, 94);
+    color: rgb(7, 92, 238);
    
    
    
 }
 #itens{
     display: none;
+  
    
    
    
@@ -104,9 +115,7 @@ main p{
     margin-bottom: 100px;
     border-radius: 20px;
     padding: 5px;
-    background-color: rgb(9, 59, 59);
-    color: rgb(8, 110, 161);
-    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.391);
+    color: rgb(2, 81, 121);
     text-transform: capitalize;
 }
 footer{
@@ -127,6 +136,7 @@ footer a{
 @media screen and (min-width: 730px){
     #botao-menu{
         display: none;
+        
       
     }
     #itens{
@@ -140,5 +150,8 @@ footer a{
     .imagens{ width: 600px;
        
     }
+    
+        
+
 }
 
