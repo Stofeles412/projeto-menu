@@ -12,6 +12,22 @@
                 border-radius: 10px;
                 text-align: center;
                 box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.479);
+                
+            }
+            ul, li{
+                display: flex;
+                margin-right: 30px;
+                font-weight: bold;
+
+                font-size: 1.2em;
+               
+            }
+            nav a{
+                list-style-type: none;
+                text-decoration: none;
+                color: azure;
+                text-align: center;
+                
             }
     </style>
     <meta charset="UTF-8">
@@ -21,21 +37,26 @@
 <body><nav>
     
     <h1>inicio</h1>
-  
+  <ul>
+    <li><a href="#">1 numero</a></li>
+    <li><a href="#">2 numero </a></li>
+    <li><a href="#">3 numero</a></li>
+  </ul>
     
         
      
         
     
 </nav>
+<h2>uma vida</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed fugiat, minima iste, beatae dolores quia delectus vitae, voluptatum rem debitis animi ab sequi adipisci corrupti ratione dolorem ad explicabo tempora! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia tenetur aperiam sit provident, accusamus atque maxime magni facilis eos architecto, unde quaerat est quod assumenda ipsam consequuntur voluptatum! Obcaecati, eveniet.</p>
 <h2 id="res">resposta</h2>
 </body>
 <script>
     var nome = window.prompt('digite seu nome')
     var idade = window.prompt ('qual sua idade ?')
     var local = window.prompt ('qual sua cidade?')
-    var resposta = window.document.getElementById('res')
-    document.write = (`${nome}`)
+    
    
    
  
