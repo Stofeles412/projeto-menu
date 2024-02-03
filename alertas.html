@@ -9,11 +9,13 @@
         }
         header{
             background-color: black;
-            color: aliceblue;
+            color: rgb(236, 74, 90);
             text-align: center;
+            text-transform: capitalize;
         }
         nav{
-            background-color: rgb(95, 94, 94);
+            background-color:#222222;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.468);
           
            
         }
@@ -23,7 +25,9 @@
             list-style-type: none;
             gap: 30px;
             padding: 20px;
+           
         }
+        
         a{
             color: aliceblue;
             text-decoration: none;
@@ -32,7 +36,44 @@
         }
         a:hover{
             color: rgb(232, 142, 142);
-            transition: .4s;
+            transition: .2s;
+        }
+        #barra-de-pesquisa{
+            margin-right: 300px;
+            background-color:#333333;
+           margin-left: 1000px;
+           height: 40px;
+           padding: 10px;
+           border-radius: 10px;
+           border: 0;
+           margin-bottom: 30px;
+        }
+        button{
+            border: 0;
+            background-color: transparent;
+         
+           
+        }
+        #botao-menu{
+            width: 30px;
+            display: none;
+            
+
+        }
+        @media screen and (max-width: 700px){
+            #itens{
+                display: none;
+              line-height: 50px;
+              border: solid 1px rgba(0, 0, 0, 0.716);
+              background-color: rgb(215, 213, 213);
+             
+            }
+            a{
+                color: rgb(3, 3, 3);
+            }
+            #botao-menu{
+                display: block;
+            }
         }
     </style>
     <meta charset="UTF-8">
@@ -41,9 +82,14 @@
 </head>
 <body>
     <header>
-        <h1>adrenaline</h1>
+        <h1>emoção</h1>
     </header>
     <nav>
+        <button onclick="openMenu()">
+            
+            <img src="menu.png" alt="botao-menu" id="botao-menu"> 
+            
+        </button>
         <menu>
           
             <ul id="itens">
@@ -57,7 +103,21 @@
                 <li><a href="#">ofertas</a></li>
                 <li><a href="#">analise</a></li>
             </ul>
+            <input type="search" placeholder="Busca..." id="barra-de-pesquisa">
         </menu>
     </nav>
 </body>
+<script>
+    function openMenu(){
+        var abrir = window.document.getElementById('itens')
+        var icone = window.document.getElementById('botao-menu')
+        if(abrir.style.display == 'none'){
+            abrir.style.display = 'block'
+            icone.src = 'menu-fechado.png.png'
+        }else{
+            abrir.style.display = 'none'
+            icone.src = 'menu.png'
+        }
+    }
+</script>
 </html>
