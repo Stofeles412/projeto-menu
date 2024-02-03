@@ -2,63 +2,62 @@
 <html lang="pt-br">
 <head>
     <style>
-            *{ font-family: Arial, Helvetica, sans-serif;
-                margin: 0;
-                padding: 0;
-            }
-            nav{
-                background-color: rgb(67, 67, 67);
-                color: white;
-                border-radius: 10px;
-                text-align: center;
-                box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.479);
-                
-            }
-            ul, li{
-                display: flex;
-                margin-right: 30px;
-                font-weight: bold;
-
-                font-size: 1.2em;
-               
-            }
-            nav a{
-                list-style-type: none;
-                text-decoration: none;
-                color: azure;
-                text-align: center;
-                
-            }
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+        }
+        nav{
+            background-color: rgb(95, 94, 94);
+          
+           
+        }
+        #itens{
+            display: flex;
+            color: aliceblue;
+            list-style-type: none;
+            gap: 30px;
+            padding: 20px;
+        }
+        a{
+            color: aliceblue;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+        a:hover{
+            color: rgb(232, 142, 142);
+            transition: .4s;
+        }
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>alertas</title>
+    <title>menu-copia</title>
 </head>
-<body><nav>
-    
-    <h1>inicio</h1>
-  <ul>
-    <li><a href="#">1 numero</a></li>
-    <li><a href="#">2 numero </a></li>
-    <li><a href="#">3 numero</a></li>
-  </ul>
-    
-        
-     
-        
-    
-</nav>
-<h2>uma vida</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed fugiat, minima iste, beatae dolores quia delectus vitae, voluptatum rem debitis animi ab sequi adipisci corrupti ratione dolorem ad explicabo tempora! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia tenetur aperiam sit provident, accusamus atque maxime magni facilis eos architecto, unde quaerat est quod assumenda ipsam consequuntur voluptatum! Obcaecati, eveniet.</p>
-<h2 id="res">resposta</h2>
+<body>
+    <header>
+        <h1>adrenaline</h1>
+    </header>
+    <nav>
+        <menu>
+          
+            <ul id="itens">
+                <li><a href="#">analise</a></li>
+                <li><a href="#">artigos</a></li>
+                <li><a href="#">videos</a></li>
+                <li><a href="#">produtos</a></li>
+                <li><a href="#">comparar</a></li>
+                <li><a href="#">forún</a></li>
+                <li><a href="#">economize</a></li>
+                <li><a href="#">ofertas</a></li>
+                <li><a href="#">analise</a></li>
+            </ul>
+        </menu>
+    </nav>
 </body>
-<script>
-    var nome = window.prompt('digite seu nome')
-    var idade = window.prompt ('qual sua idade ?')
-    var local = window.prompt ('qual sua cidade?')
-    
-   
-   
- 
-</script>
 </html>
