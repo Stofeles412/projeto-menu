@@ -16,6 +16,7 @@ header li {
    
     display: inline-block;
     color: rgb(3, 159, 255);
+    margin: 15px;
 }
 
 
@@ -149,6 +150,9 @@ footer a{
     }
     .imagens{ width: 600px;
        
+    }
+    header li{
+        margin: 30px;
     }
     
         
