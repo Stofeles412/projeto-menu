@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav{
+            background-color: rgb(5, 29, 48);
+            border: solid 2px rgba(69, 68, 68, 0.536);
+           
+        }
+        h1 {
+            color: rgb(86, 166, 236);
+            text-align: center;
+            font-size: 2.5em;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 1.3em;
+            font-weight: bolder;
+        }
+        a:hover{
+            color: rgb(61, 171, 171);
+            text-decoration: underline;
+        }
+       ul li {
+            list-style-type: none;
+            margin: 20px;
+        }
+        #itens{
+            display: flex;
+            
+        }
+        #menu-icone{
+            width: 30px;
+            display: none;
+          
+        }
+        button{
+            background-color: transparent;
+            border: 0;
+            color: black;
+
+        }
+        main{
+            padding: 30px;
+        }
+
+        @media screen and (max-width: 700px){
+            body{
+                background-color: rgb(255, 255, 255);
+            }
+            #menu-icone{
+                display: block;
+            }
+            #itens{
+                display: none;
+            }
+
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+</head>
+<body>
+    <nav>
+        <h1>logo</h1>
+        <button onclick="openMenu()">
+            <img src="menu.png" alt="menu-icon" id="menu-icone">
+        </button>
+        <ul id="itens">
+            <li><a href="#">sobre</a></li>
+            <li><a href="#">animes</a></li>
+            <li><a href="#">quem somos?</a></li>
+            <li><a href="#">games</a></li>
+        </ul>
+    </nav>
+    <main>
+        <input type="text" placeholder="endereço"> <br> <br>
+        <input type="text" placeholder="endereço"> <br> <br>
+        <input type="button" value="enviar">
+    </main>
+    <script>
+        function openMenu(){
+            var abrir = window.document.getElementById('itens')
+            var icone = window.document.getElementById('menu-icone')
+            if(abrir.style.display == 'none'){
+                abrir.style.display = 'flex'
+                icone.src = 'menu-fechado.png.png'
+            }else{
+                abrir.style.display = 'none'
+                icone.src = 'menu.png'
+            }
+
+        }
+    </script>
+    
+</body>
+</html>
